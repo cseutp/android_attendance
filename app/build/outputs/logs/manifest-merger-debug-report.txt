@@ -1,0 +1,138 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:5:5-74
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:5:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:9:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.INTERNET
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:11:22-64
+application
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:13:5-41:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:17:9-35
+	android:allowBackup
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.example.sam.androidattendence.MainActivity
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:19:9-28:20
+	android:label
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:21:13-45
+	android:theme
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:20:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.example.sam.androidattendence.Register
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:29:9-31:24
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:30:13-37
+activity#com.example.sam.androidattendence.View_Details_List
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:32:9-34:20
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:32:19-52
+activity#com.example.sam.androidattendence.GetSubject_Details
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:35:9-37:20
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:35:19-53
+activity#com.example.sam.androidattendence.View_Attendance
+ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:38:9-40:20
+	android:name
+		ADDED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml:38:19-50
+uses-sdk
+INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:design:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/AndroidManifest.xml

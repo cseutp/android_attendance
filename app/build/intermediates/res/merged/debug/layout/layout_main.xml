@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Details"
+            android:id="@+id/button_view_details"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Personal Details"
+            android:id="@+id/button_edit_details"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Subject Details"
+            android:id="@+id/button_edit_subjects"
+            android:layout_below="@+id/button_edit_details"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_show_subject"
+            android:layout_below="@+id/button_edit_subjects"
+            android:layout_alignRight="@+id/button_edit_subjects"
+            android:layout_alignEnd="@+id/button_edit_subjects"
+            android:layout_marginTop="51dp" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Check Attendance"
+            android:id="@+id/button_check_attendance"
+            android:layout_below="@+id/button_edit_subjects"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attend"
+            android:id="@+id/button_submit_Attendance"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>
