@@ -41,9 +41,11 @@ public class MainActivity extends Activity {
         SP_Subject = (Spinner) findViewById(R.id.spinner_show_subject);
 
 
+        System.out.println("Start");
         uldh2 = new UserListDbHelper2(getApplicationContext() , null,null,3);
         Cursor check;
         check = uldh2.Checkdata();
+        System.out.println("Stop");
         if(check==null){
             Intent GetSubjectDetails = new Intent(getApplicationContext() , GetSubject_Details.class);
             startActivity(GetSubjectDetails);
@@ -63,12 +65,6 @@ public class MainActivity extends Activity {
             public void onNothingSelected(AdapterView<?> adapterView) {
             }
         });
-
-
-
-
-
-
 
         BT_View_Details.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,7 +98,7 @@ public class MainActivity extends Activity {
                 String str = ""+Spinner_pos;
                 moveToViewAttendance.putExtra("Spinner_Pos" , str);
                 startActivity(moveToViewAttendance);
-                /*uldh2 = new UserListDbHelper2(getApplicationContext(), null,null,3);
+                uldh2 = new UserListDbHelper2(getApplicationContext(), null,null,3);
                 Cursor check;
                 check=uldh2.Checkdata();
                 if(check!=null){
@@ -110,7 +106,7 @@ public class MainActivity extends Activity {
                     int attendance=100;
                     attendance = check.getInt(6);
                     String att=""+attendance;
-                    }*/
+                    }
             }
         });
         BT_Submit_Attendance.setOnClickListener(new View.OnClickListener() {
@@ -130,13 +126,19 @@ public class MainActivity extends Activity {
         uldh2 = new UserListDbHelper2(getApplicationContext(), null,null,3);
         Cursor check;
         check=uldh2.Checkdata();
-        if(check!=null){
-            check.moveToFirst();
+        if(check!=null&&check.moveToFirst()){
+            System.out.println("Start2");
+
             String sub1="" , sub2="" , sub3="" , sub4="" , sub5="" , sub6="";
+            System.out.println("Start string 0");
             sub1 = check.getString(0);
+            System.out.println("Start string 1");
             sub2 = check.getString(1);
+            System.out.println("Start string 2");
             sub3 = check.getString(2);
+            System.out.println("Start string 3");
             sub4 = check.getString(3);
+            System.out.println("Start string 4");
             sub5 = check.getString(4);
             sub6 = check.getString(5);
             String Spinner_Content[] = {sub1 , sub2 , sub3 , sub4 , sub5 , sub6};
@@ -168,14 +170,14 @@ public class MainActivity extends Activity {
 
 
            RequestParams params = new RequestParams();
-           params.put("Admission_No", Adm_no);
+           params.put("Admission_No",Adm_no);
            params.put("Name",name );
            params.put("Branch",branch);
-           params.put("Mobile_No", mobile_no);
+           params.put("Mobile_No",mobile_no);
            params.put("Hostel",hostel );
            params.put("Room_No",room_no );
 
-           String url="http://192.168.190.103:8080";
+           String url="http://192.168.174.115:8080";
            AsyncHttpClient client = new AsyncHttpClient();
            client.post(url, params, new JsonHttpResponseHandler(){
 
@@ -185,7 +187,7 @@ public class MainActivity extends Activity {
                    Toast.makeText(getApplicationContext(),"200 OK!",Toast.LENGTH_SHORT).show();
                    Log.i("Success Response ::: ","" + response);
                    System.out.println("Success Response ::: " + response);
-                  // set_attendance(Spinner_pos);
+                  set_attendance(Spinner_pos);
 
                }
 

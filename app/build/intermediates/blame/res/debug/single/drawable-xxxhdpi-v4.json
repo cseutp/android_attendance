@@ -64,16 +64,16 @@
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",

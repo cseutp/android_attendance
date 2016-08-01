@@ -80,7 +80,9 @@ public class UserListDbHelper2 extends SQLiteOpenHelper {
     public Cursor Checkdata()
     {
         SQLiteDatabase db = this.getReadableDatabase();
+        System.out.println("SubjectDatabase");
         return query(db, "SELECT * From "+TABLE);
+
     }
 
     private Cursor query(SQLiteDatabase db, String query) {

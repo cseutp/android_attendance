@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_navigation_item.xml"
-    },
-    {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -20,16 +20,16 @@
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/layout_view_attendance.xml",
+        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/res/layout/layout_view_attendance.xml"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/layout_view_attendance.xml",
-        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/res/layout/layout_view_attendance.xml"
+        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -44,12 +44,12 @@
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/src/main/res/layout/layout_set_subjects.xml"
     },
     {
-        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -140,16 +140,16 @@
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/home/sam/AndroidStudioProjects/AndroidAttendence/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
