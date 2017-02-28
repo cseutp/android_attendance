@@ -25,6 +25,7 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends Activity {
     Button BT_View_Details , BT_Edit_Details, BT_Submit_Attendance,BT_Edit_Subjects , BT_Check_Attendance;
     Spinner SP_Subject;
+    Button test;
     UserListDbHelper uldh;
     UserListDbHelper2 uldh2;
     int Spinner_pos;
